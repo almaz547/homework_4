@@ -22,7 +22,7 @@ while True:
         else:
             #print(depositing_money)
             cash_account.append(depositing_money)
-            depositing_money = int(depositing_money)
+            depositing_money = float(depositing_money)
             sum_cash_account += depositing_money
             depositing_money_number += 1
             history['Пополнение счета_' + str(depositing_money_number)] = depositing_money
@@ -38,7 +38,7 @@ while True:
         if not purchase_price.isdigit():
             purchases()
         else:
-            purchase_price = int(purchase_price)
+            purchase_price = float(purchase_price)
             if purchase_price > sum_cash_account:
                 print('Недостаточно денег на счете')
             else:

@@ -57,7 +57,7 @@ def hello_world():
     print('*' * 10)
     print('Hello World!')
     print('*' * 10)
-    return None
+
 
 
 '''
@@ -80,7 +80,7 @@ def hello_who(who='World'):
     print('*' * 10)
     print(f'Hello {who}!')
     print('#' * 10)
-    return None
+
 
 
 '''
@@ -133,7 +133,7 @@ def print_key_val(**kwargs):
     """
     for key,val in kwargs.items():
         print(f'{key} --> {val}')
-        return None
+
 
 
 """
