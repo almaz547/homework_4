@@ -131,25 +131,25 @@ def print_key_val(**kwargs):
     :param kwargs: любое количество именованных параметров
     :return: None
     """
-    for key,val in kwargs.items():
+    for key, val in kwargs.items():
         print(f'{key} --> {val}')
 
 
 
-"""
+'''
 name --> Max
 age --> 21
-"""
+'''
 print_key_val(name='Max', age=21)
-"""
+'''
 animal --> Cat
 is_animal --> True
-"""
+'''
 print_key_val(animal='Cat', is_animal=True)
 
 
 def my_filter(iterable, function):
-    """
+    '''
     (Усложненое задание со *)
     Функция фильтрует последовательность iterable и возвращает новую
     Если function от элемента последовательности возвращает True, то элемент входит в новую последовательность иначе нет
@@ -157,8 +157,8 @@ def my_filter(iterable, function):
     :param iterable: входаня последовательности
     :param function: функция фильтрации
     :return: новая отфильтрованная последовательность
-    """
-    return list(filter(function, iterable))
+
+    return list(filter(function, iterable))'''
 
 
 

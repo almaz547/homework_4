@@ -7,7 +7,7 @@ while new_test == "да":
         year_name = int(input(f'Введите год рождения {name}:  '))
         global answer_es
         if year_name == year:
-            print(answer_es)
+            answer_es += 1
     for key, val in date_birth_people.items():
         year_day_birth(key, val)
 
